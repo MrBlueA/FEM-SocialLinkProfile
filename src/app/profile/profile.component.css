@@ -1,0 +1,29 @@
+#profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+
+#profile-preview {
+  max-width: 90px;
+  max-height: 90px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+
+#profile-name {
+  margin: 0 auto;
+}
+
+#profile-city {
+  margin: 0 auto 1rem;
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+}
+
+#profile-summary {
+  margin: 0 auto 0.85rem;
+  font-size: 14px;
+  color: hsl(0, 0%, 90%);
+}

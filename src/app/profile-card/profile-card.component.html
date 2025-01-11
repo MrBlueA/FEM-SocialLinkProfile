@@ -1,0 +1,9 @@
+<div class="card-container">
+  <app-profile/>
+  @for (link of linkList; track link.name) {
+    <app-link-button [name]="link.name" [link]="link.link"/>
+  }
+
+</div>
+
+
