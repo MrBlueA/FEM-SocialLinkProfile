@@ -1,7 +1,7 @@
 .linkButton {
   display: block;
   width: 100%;
-  height: 2rem;
+  height: 2.25rem;
   margin-top: 0.7rem;
   background-color: hsl(0, 0%, 20%);
   color: white;
@@ -9,6 +9,7 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: 600;
 }
 
 .linkButton:hover {
